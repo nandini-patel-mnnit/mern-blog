@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { useSelector } from 'react-redux';
-import { TextInput, Button, Alert, Modal, ModalBody } from 'flowbite-react';
+import { TextInput, Button, Alert, Modal } from 'flowbite-react';
 import { app } from '../firebase';
 import { getDownloadURL, getStorage, ref, uploadBytesResumable } from 'firebase/storage';
 import { CircularProgressbar } from 'react-circular-progressbar';
