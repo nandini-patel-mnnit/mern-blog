@@ -59,4 +59,4 @@ export const getposts = async (req, res, next) => {
     catch(error) {
         next(error);
     }
-}
+};
