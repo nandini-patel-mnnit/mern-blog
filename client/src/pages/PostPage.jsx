@@ -8,7 +8,7 @@ export default function PostPage() {
     const { postSlug } = useParams();
     const [ loading, setLoading ] = useState(true);
     const [ error, setError ] = useState(false);
-    const [ post, setpost ] = useState(null);
+    const [ post, setPost ] = useState(null);
 
     useEffect(() => {
         const fetchPost = async () => {
@@ -22,9 +22,9 @@ export default function PostPage() {
                     return;
                 }
                 if(res.ok) {
-                    setpost(data.posts[0]);
+                    setPost(data.posts[0]);
                     setLoading(false);
-                    setError(null);
+                    setError(false);
                 }
             }
             catch(error) {
