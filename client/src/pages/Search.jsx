@@ -134,7 +134,7 @@ export default function Search() {
       </div>
       <div className='w-full'>
         <h1 className='text-3xl font-semibold sm:border-b border-gray-500 p-3 mt-5 '>Posts results : </h1>
-        <div classname='p-7 flex flex-wrap gap-4'>
+        <div className='flex flex-wrap gap-4 p-7'>
           {
             !loading && posts.length === 0 && (
             <p className='text-xl text-gray-500'>
