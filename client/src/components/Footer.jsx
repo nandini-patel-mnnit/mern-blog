@@ -11,7 +11,7 @@ export default function FooterCom() {
                 <div className='mt-5'>
                     <Link to='/' className='self-center whitespace-nowrap text-lg sm:text-xl font-semibold dark:text-white'>
                         <span className='px-2 py-1 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-700 rounded-lg text-white'>
-                            Sahand's
+                            Nandini's
                         </span>
                         Blog
                     </Link>
@@ -24,7 +24,7 @@ export default function FooterCom() {
                                 100 JS Projects
                             </Footer.Link>
                             <Footer.Link href='/about' target='_blank' rel='noopener noreferrer' >
-                                Sahand's Blog
+                                Nandini's Blog
                             </Footer.Link>
                         </Footer.LinkGroup>
                     </div>
